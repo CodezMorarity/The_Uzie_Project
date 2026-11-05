@@ -1,0 +1,46 @@
+# Maven and IDE output
+target/
+*.class
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Local JavaFX distributions and installers
+dist/
+*.msi
+*.exe
+*.appx
+*.zip
+*.jpackage.xml
+
+# Local data and backups (never commit a real vault)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.vaultx-backup
+*.vxbackup
+*.backup
+*.log
+hs_err_pid*.log
+*.tmp
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+.impeccable/config.local.json
+.impeccable/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
