@@ -28,6 +28,7 @@
 - Captured and reviewed six actual JavaFX views with fictional records and a disposable database: setup, dashboard, vault, generator, security overview, and settings. The academic report embeds these screenshots; generator secrets are masked.
 - Fixed the Windows script's JDK version check to match the version output format emitted by JDK 21.
 - GitHub credential check failed because the configured token is invalid. No remote repository was created and no push was attempted.
+- Initialized a project-local Git repository on `main`, added the expected `origin` URL, and committed the complete deliverable as `5a70b3a`. The harness-owned parent repository was left untouched. A final documentation commit records this verification state.
 
 ## Remaining external verification
 
